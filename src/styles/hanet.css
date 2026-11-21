@@ -1,0 +1,90 @@
+/* Colores y tipografía de HaNet sobre Starlight (tema oscuro "Misty Rose"). */
+@font-face {
+  font-family: 'Google Sans Flex';
+  src: url('/fonts/GoogleSansFlex-Variable.ttf') format('truetype');
+  font-weight: 1 1000;
+  font-stretch: 25% 151%;
+  font-display: swap;
+}
+
+:root,
+::backdrop {
+  --sl-font: 'DM Sans Variable', system-ui, sans-serif;
+  --sl-font-heading: 'Google Sans Flex', 'DM Sans Variable', system-ui, sans-serif;
+}
+
+:root[data-theme='dark'],
+[data-theme='dark'] ::backdrop {
+  --sl-color-accent-low: #4a1730;
+  --sl-color-accent: #ef2274;
+  --sl-color-accent-high: #ff8db5;
+  --sl-color-white: #f9f9fa;
+  --sl-color-gray-1: #dddde2;
+  --sl-color-gray-2: #c9c8d0;
+  --sl-color-gray-3: #a9a8b0;
+  --sl-color-gray-4: #6a6970;
+  --sl-color-gray-5: #504f53;
+  --sl-color-gray-6: #3c3b3e;
+  --sl-color-black: #282829;
+}
+
+:root[data-theme='light'],
+[data-theme='light'] ::backdrop {
+  --sl-color-accent-low: #fde0ec;
+  --sl-color-accent: #d81d68;
+  --sl-color-accent-high: #8f1446;
+  --sl-color-white: #1c1c1d;
+  --sl-color-gray-1: #282829;
+  --sl-color-gray-2: #3c3b3e;
+  --sl-color-gray-3: #6a6970;
+  --sl-color-gray-4: #a9a8b0;
+  --sl-color-gray-5: #c9c8d0;
+  --sl-color-gray-6: #eeeef1;
+  --sl-color-gray-7: #f6f6f8;
+  --sl-color-black: #ffffff;
+}
+
+h1, h2, h3, .site-title, .hero h1 {
+  font-family: var(--sl-font-heading);
+  letter-spacing: -0.02em;
+}
+.sl-markdown-content h1,
+.content-panel h1 {
+  font-weight: 750;
+  letter-spacing: -0.035em;
+}
+.site-title { font-weight: 700; }
+
+/* Botones y chips con forma de píldora, como en la app. */
+.sl-link-button,
+.action,
+starlight-theme-select select,
+.pagination-links a {
+  border-radius: 999px;
+}
+.card, .sl-link-card, .starlight-aside { border-radius: 20px; }
+
+/* Acción principal: rosa HaNet sólido con texto blanco, como en la app. */
+.sl-link-button.primary,
+.action.primary {
+  background: #ef2274;
+  border-color: #ef2274;
+  color: #fff;
+}
+.sl-link-button.primary:hover,
+.action.primary:hover { background: #d81d68; border-color: #d81d68; color: #fff; }
+
+/* Íconos de las tarjetas: un solo color (rosa) en vez del arcoíris de Starlight. */
+.card .icon {
+  color: var(--sl-color-accent-high) !important;
+  background: var(--sl-color-accent-low) !important;
+  border-color: transparent !important;
+}
+.site-title { color: var(--sl-color-white); }
+
+/* Página actual en la barra lateral: control activo de la app (gris claro, texto oscuro). */
+:root[data-theme='dark'] .sidebar-content a[aria-current='page'] {
+  background: #c7c6cf;
+  color: #282829;
+  border-radius: 999px;
+}

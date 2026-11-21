@@ -1,0 +1,41 @@
+---
+title: HaNet Docs
+description: Todo lo que tu liceo necesita saber para usar HaNet, y cómo aportar al proyecto.
+template: splash
+hero:
+  tagline: Todo lo que tu liceo necesita saber para usar HaNet. Cómo funciona, qué hace con los datos y cómo empezar.
+  actions:
+    - text: Empezar
+      link: /liceos/que-es-hanet/
+      icon: right-arrow
+      variant: primary
+    - text: Cómo se suma tu liceo
+      link: /liceos/sumarse/
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <Card title="Una sola app para el liceo" icon="laptop">
+    Calendar del curso, clases, notas, eventos y alianzas en el teléfono de cada estudiante, y un panel para el trabajo de escritorio.
+  </Card>
+  <Card title="Datos en Chile" icon="approve-check">
+    Los datos del liceo se guardan en Santiago y solo se leen a través de funciones que revisan quién pregunta.
+  </Card>
+  <Card title="Módulos a tu medida" icon="puzzle">
+    El liceo activa solo lo que necesita. Un módulo apagado no queda escondido: deja de funcionar en el servidor.
+  </Card>
+  <Card title="Código abierto" icon="github">
+    El código de la app está publicado. Cualquiera puede revisar cómo trata los datos.
+  </Card>
+</CardGrid>
+
+## Para liceos
+
+<CardGrid>
+  <LinkCard title="Qué es HaNet" href="/liceos/que-es-hanet/" description="La idea, la base y lo que viene." />
+  <LinkCard title="Módulos" href="/liceos/modulos/" description="Qué trae cada uno y quién lo usa." />
+  <LinkCard title="Seguridad y privacidad" href="/liceos/seguridad/" description="Dónde viven los datos y quién los ve." />
+  <LinkCard title="Cómo se suma tu liceo" href="/liceos/sumarse/" description="Nómina, código de invitación y roles." />
+</CardGrid>
