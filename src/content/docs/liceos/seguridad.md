@@ -7,9 +7,16 @@ HaNet trabaja con datos de menores de edad, así que parte de una regla simple: 
 
 ## Dónde viven los datos
 
-- Los datos se guardan en **Firebase (Google Cloud), en Santiago de Chile** (`southamerica-west1`), en tres bases separadas: cuentas e instituciones, Calendar y ClassHall.
-- Las funciones que leen y escriben esos datos corren en Google Cloud. La app nunca escribe directo en las bases: cada cambio pasa por una función que revisa quién lo pide, su rol y su institución.
-- Los archivos de ClassHall (material y entregas) solo se abren con un link con permiso que la función entrega a quienes están en ese Hall.
+| Qué | Dónde |
+| --- | --- |
+| **Base de datos** (cuentas, nómina, cursos, Calendar, ClassHall, notas) | Firestore, en **Santiago de Chile** (`southamerica-west1`), en tres bases separadas. |
+| **Funciones** que leen y escriben esa base | Google Cloud en **Iowa, Estados Unidos** (`us-central1`). Las del escáner de la puerta (entradas y pasar lista) corren también en Santiago, para responder más rápido. |
+| **Archivos** (material, entregas y fotos) | Cloud Storage de Firebase. |
+| **Inicio de sesión** | Firebase Authentication, el servicio de cuentas de Google. |
+| **Notificaciones** | Expo y Firebase Cloud Messaging. Nunca llevan una nota. |
+
+- La app nunca escribe directo en la base: cada cambio pasa por una función que revisa quién lo pide, su rol y su institución. Los datos viajan cifrados entre la app, las funciones y la base.
+- Los archivos de ClassHall solo se abren con un link con permiso que la función entrega a quienes están en ese Hall.
 
 ## Quién ve qué
 
