@@ -1,7 +1,7 @@
 /* Colores y tipografía de HaNet sobre Starlight (tema oscuro "Misty Rose"). */
 @font-face {
   font-family: 'Google Sans Flex';
-  src: url('/fonts/GoogleSansFlex-Variable.ttf') format('truetype');
+  src: url('../assets/fonts/GoogleSansFlex-Variable.ttf') format('truetype');
   font-weight: 1 1000;
   font-stretch: 25% 151%;
   font-display: swap;

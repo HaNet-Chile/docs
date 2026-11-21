@@ -12,4 +12,4 @@ Las páginas son Markdown en `src/content/docs/`. La barra lateral se arma en `a
 
 Este repositorio es público: nunca subas secretos, nóminas ni datos de estudiantes.
 
-La fuente Google Sans Flex va con su licencia (`public/fonts/OFL.txt`).
+La fuente Google Sans Flex va con su licencia (`src/assets/fonts/OFL.txt`).

@@ -35,7 +35,7 @@ El liceo recibe un **código de invitación de 4 palabras**. Se muestra una sola
 
 ## 5. Roles
 
-El equipo de HaNet asigna los roles de docentes, administración, Directiva y CEE. Ver [Roles y permisos](/liceos/roles/).
+El equipo de HaNet asigna los roles de docentes, administración, Directiva y CEE. Ver [Roles y permisos](../roles/).
 
 ## 6. Las clases
 

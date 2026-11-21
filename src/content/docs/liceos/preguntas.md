@@ -25,7 +25,7 @@ La app guarda lo último que vio, así que el Calendar, las clases y los eventos
 No. Los estudiantes descargan la app o la abren en la web. El liceo administra desde la app y el panel web.
 
 ### ¿Podemos usar solo algunas partes?
-Sí. La base (Calendar, ClassHall y Eventos del liceo) está siempre. El resto son [módulos](/liceos/modulos/) que se activan por separado.
+Sí. La base (Calendar, ClassHall y Eventos del liceo) está siempre. El resto son [módulos](../modulos/) que se activan por separado.
 
 ### ¿Quién responde si algo falla?
 El equipo de HaNet, en [muxp@muxp.art](mailto:muxp@muxp.art).

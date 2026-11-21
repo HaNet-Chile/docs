@@ -3,8 +3,10 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 // Documentación de HaNet: páginas en Markdown dentro de src/content/docs.
+// SITE y BASE los pone el workflow de GitHub Pages; sin ellos, el sitio va en la raíz.
 export default defineConfig({
-  site: 'https://docs.hanet.muxp.art',
+  site: process.env.SITE ?? 'https://docs.hanet.muxp.art',
+  base: process.env.BASE ?? '/',
   integrations: [
     starlight({
       title: 'HaNet Docs',
