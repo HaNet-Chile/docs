@@ -10,7 +10,7 @@ HaNet trabaja con datos de menores de edad, así que parte de una regla simple: 
 | Qué | Dónde |
 | --- | --- |
 | **Base de datos** (cuentas, lista del liceo, cursos, Calendar, ClassHall, notas) | Firestore de Google Cloud, en **Santiago de Chile**, en tres bases separadas. |
-| **Funciones** que leen y escriben esa base | Google Cloud, en **Santiago de Chile**. Las tareas programadas (como el resumen de las 7:00) corren en São Paulo, porque Google no las ofrece en Santiago. El link para suscribir el calendario del curso (iCal) responde desde Estados Unidos. |
+| **Funciones** que leen y escriben esa base | Google Cloud, en **Santiago de Chile**. Las tareas programadas (como el resumen de las 7:00) corren en São Paulo, porque Google no las ofrece en Santiago. Los calendarios del curso (iCal) suscritos antes del 21 de noviembre de 2026 siguen respondiendo desde Estados Unidos. |
 | **Archivos** (material, entregas y fotos) | Cloud Storage de Firebase (Google Cloud). |
 | **Inicio de sesión** | Firebase Authentication, el servicio de cuentas de Google. |
 | **Notificaciones** | Expo y Firebase Cloud Messaging. Nunca llevan una nota. |
