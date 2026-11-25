@@ -88,3 +88,13 @@ starlight-theme-select select,
   color: #282829;
   border-radius: 999px;
 }
+
+/* Capturas de la app: tamaño de teléfono, centradas y con las esquinas de la pantalla. */
+.sl-markdown-content img[alt^='Pantalla'] {
+  display: block;
+  width: min(100%, 260px);
+  height: auto;
+  margin-inline: auto;
+  border-radius: 28px;
+  border: 1px solid var(--sl-color-gray-5);
+}

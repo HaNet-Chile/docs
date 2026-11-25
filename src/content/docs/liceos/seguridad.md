@@ -7,9 +7,16 @@ HaNet trabaja con datos de menores de edad, así que parte de una regla simple: 
 
 ## Dónde viven los datos
 
-- Los datos se guardan en **Firebase (Google Cloud), en Santiago de Chile** (`southamerica-west1`), en tres bases separadas: cuentas e instituciones, Calendar y ClassHall.
-- Las funciones que leen y escriben esos datos corren en Google Cloud. La app nunca escribe directo en las bases: cada cambio pasa por una función que revisa quién lo pide, su rol y su institución.
-- Los archivos de ClassHall (material y entregas) solo se abren con un link con permiso que la función entrega a quienes están en ese Hall.
+| Qué | Dónde |
+| --- | --- |
+| **Base de datos** (cuentas, lista del liceo, cursos, Calendar, ClassHall, notas) | Firestore de Google Cloud, en **Santiago de Chile**, en tres bases separadas. |
+| **Funciones** que leen y escriben esa base | Google Cloud, en **Santiago de Chile**. Las tareas programadas (como el resumen de las 7:00) corren en São Paulo, porque Google no las ofrece en Santiago. Los calendarios del curso (iCal) suscritos antes del 21 de noviembre de 2026 siguen respondiendo desde Estados Unidos. |
+| **Archivos** (material, entregas y fotos) | Cloud Storage de Firebase (Google Cloud). |
+| **Inicio de sesión** | Firebase Authentication, el servicio de cuentas de Google. |
+| **Notificaciones** | Expo y Firebase Cloud Messaging. Nunca llevan una nota. |
+
+- La app nunca escribe directo en la base: cada cambio pasa por una función que revisa quién lo pide, su rol y su institución. Los datos viajan cifrados entre la app, las funciones y la base.
+- Los archivos de ClassHall solo se abren con un link con permiso que se entrega a quienes están en ese Hall.
 
 ## Quién ve qué
 
@@ -18,7 +25,7 @@ HaNet trabaja con datos de menores de edad, así que parte de una regla simple: 
 | Nota de un estudiante | El estudiante, su docente y la administración de su institución. |
 | Entrega de una tarea | Su autor y el docente del Hall. |
 | Resultado de Electividad | El estudiante y la administración de su institución. |
-| Foto de perfil | Solo la persona. Los demás ven su avatar generado (blobatar). |
+| Foto de perfil | Solo la persona. Los demás ven su avatar generado. |
 | Voto en una votación | Nadie. Solo se suma al contador. |
 
 ## Lo que HaNet no guarda
@@ -34,7 +41,8 @@ HaNet trabaja con datos de menores de edad, así que parte de una regla simple: 
 - **Alertas de seguridad:** un inicio de sesión desde un dispositivo nuevo, un cambio de contraseña, de correo o de rol llega como notificación a los otros dispositivos de la cuenta. Estas alertas no se pueden apagar.
 - **Cerrar sesión en todas partes:** desde Configuraciones → Seguridad, la persona ve sus dispositivos y puede cerrar todas sus sesiones.
 - **Proteger Notas:** opcional. Pide Face ID, huella o el código del teléfono para abrir las notas.
-- **QR que caduca:** el código del perfil cambia cada 30 segundos y se valida en el servidor.
+- **QR que caduca:** el código del perfil y el de cada entrada cambian cada 30 segundos y se validan en el servidor. Si alguien saca una captura, la app le avisa que no sirve.
+- **Panel web con dos pasos:** para entrar al [panel web](../panel-web/) siempre se pide un segundo paso, con un código al correo o una app de autenticación.
 
 ## Correos
 
