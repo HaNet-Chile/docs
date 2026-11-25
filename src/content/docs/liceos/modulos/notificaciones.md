@@ -19,6 +19,7 @@ Todo lo que el liceo envía queda guardado ahí, aunque la persona no tenga un t
 | --- | --- | --- |
 | Resumen de las 7:00 (lunes a viernes) | Cada estudiante | "Resumen de las 7:00" |
 | Prueba en 24 y 4 horas | Cada estudiante | "Avisos de pruebas" (solo en ese teléfono) |
+| Tarea o entrega del Calendar: el día antes a las 19:00 y 3 horas antes | Cada estudiante | "Avisos de entregas" (solo en ese teléfono) |
 | Anuncio, tarea o material nuevo en ClassHall | Estudiantes del Hall | "Anuncios, tareas y entregas revisadas" |
 | Tarea que vence mañana, sin entregar (18:00) | Quien no ha entregado | Igual que el anterior |
 | Entrega revisada | Quien entregó | Igual que el anterior |

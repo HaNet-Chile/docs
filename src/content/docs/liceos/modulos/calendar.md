@@ -22,7 +22,7 @@ Toca el botón del centro de la barra para cambiar de vista:
 
 ## Tipos de evento
 
-Evaluación sumativa, Evaluación formativa, Taller, Tarea, Remedial, Actividad y Otro.
+Evaluación sumativa, Evaluación formativa, Taller, Tarea, Entrega (trabajos, informes y proyectos), Remedial, Actividad y Otro.
 
 ## Agregar un evento
 
@@ -33,19 +33,33 @@ Desde el menú de la vista, "Crear evento":
 3. Agrega la asignatura, la sala y qué hay que saber o traer.
 4. Si quieres, marca **"Solicitar verificación docente"**.
 
+## Plazos de tareas y entregas
+
+Al elegir **Tarea** o **Entrega**, el formulario pide el plazo:
+
+| Plazo | Cuándo vence |
+| --- | --- |
+| **En una clase** | Al empezar ese bloque del horario. |
+| **Hasta una hora** | A la hora que elijas (parte en las 23:59). |
+
+En el día del Calendar, la entrega aparece dentro del bloque de su asignatura con "Se entrega en esta clase" o "Hasta las 23:59". En la semana y en el detalle también se ve "Hasta las HH:MM" en vez de una hora de inicio y fin.
+
+Las tareas que publica un docente en su Hall se manejan en [ClassHall](../classhall/#tareas-y-entregas).
+
 ## Lo que confirma un docente
 
 Lo que agenda la Directiva puede no ser oficial. Por eso el docente de la asignatura puede **confirmar, corregir o borrar** lo que publica el curso. Al confirmar una evaluación, pasa a su Hall y lleva un sello de verificado.
 
-## Avisos antes de cada prueba
+## Avisos antes de cada prueba y entrega
 
 - **24 y 4 horas antes** de cada evaluación, la app instalada avisa. Se apaga en Configuraciones → Notificaciones, solo en ese teléfono.
 - **En iPhone**, dentro de las 24 horas previas aparece una cuenta regresiva en la pantalla bloqueada (Live Activity).
-- **Resumen de las 7:00**, de lunes a viernes, con las clases y pruebas del día. Ver [Horario](../horario/).
+- **Tareas y entregas del Calendar:** la app instalada avisa el día antes a las 19:00 y 3 horas antes (este último solo si cae desde las 9:00). Se apaga en Configuraciones → Notificaciones → "Avisos de entregas", solo en ese teléfono. Las tareas de un Hall no llevan estos avisos, porque ya tienen el recordatorio de las 18:00 para quien no ha entregado.
+- **Resumen de las 7:00**, de lunes a viernes, con las clases, pruebas, tareas y entregas del día. Ver [Horario](../horario/).
 
 ## El aviso del Inicio
 
-El tile del Calendar en el Inicio muestra lo más próximo del curso. Cada persona elige qué tipos aparecen en Configuraciones → Inicio → "Aviso del Calendar". Por defecto: evaluaciones sumativas y formativas, talleres, tareas y remediales.
+El tile del Calendar en el Inicio muestra lo más próximo del curso. Cada persona elige qué tipos aparecen en Configuraciones → Inicio → "Aviso del Calendar". Por defecto: evaluaciones sumativas y formativas, talleres, tareas, entregas y remediales.
 
 ## Widgets
 

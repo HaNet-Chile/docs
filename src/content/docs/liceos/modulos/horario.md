@@ -29,7 +29,7 @@ Los electivos y dominios no van en el horario del curso, porque mezclan estudian
 
 ## El resumen de las 7:00
 
-De lunes a viernes, a las 7:00, a cada estudiante le llega una notificación con su primera clase y las pruebas del día. Cuenta el día real: si el liceo suspendió las clases o adelantó la salida, dice "Hoy no hay clases" o a qué hora sale. Se apaga en Configuraciones → Notificaciones → "Resumen de las 7:00".
+De lunes a viernes, a las 7:00, a cada estudiante le llega una notificación con su primera clase y las pruebas, tareas y entregas del día. Cuenta el día real: si el liceo suspendió las clases o adelantó la salida, dice "Hoy no hay clases" o a qué hora sale. Se apaga en Configuraciones → Notificaciones → "Resumen de las 7:00".
 
 ## Cambios de un solo día
 
