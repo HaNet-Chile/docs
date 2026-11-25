@@ -26,7 +26,7 @@ Además existe el rol **HNT**, del equipo de HaNet, que administra las instituci
 | Crear Halls y publicar en ellos | | | | ✓ | ✓ |
 | Poner y publicar notas | | | | Sus Halls | ✓ |
 | Suspender clases o adelantar la salida | | | | | ✓ |
-| Enviar notificaciones desde Organizar | | | Liceo, jornada y cursos | | ✓ |
+| Enviar notificaciones desde Organizar | | | Sin elegir por nombre | | ✓ |
 | Publicar eventos del liceo | | | ✓ | | ✓ |
 | Emitir y escanear entradas | | | ✓ | Si lo autorizan | ✓ |
 | Publicar en el Feed | | Espacio del curso | Espacio del CEE | | Comunidad del liceo |
