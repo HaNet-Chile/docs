@@ -24,6 +24,7 @@ Todo lo que el liceo envía queda guardado ahí, aunque la persona no tenga un t
 | Entrega revisada | Quien entregó | Igual que el anterior |
 | Nota nueva o corregida (nunca muestra la nota) | El estudiante | Igual que el anterior |
 | Publicación del Feed enviada como notificación | Quienes ven la publicación | "Publicaciones enviadas como notificación" |
+| Notificación del liceo o del CEE, enviada desde [Organizar](../organizar/#notificaciones) | Quienes elige quien la envía | "Avisos de tu liceo" |
 | Pruebas flash y plazos del aniversario | La alianza o sus jefes | "Pruebas flash y plazos de tu alianza" |
 | Entrada recibida | Quien la recibe | No se apaga |
 | Suspensión de clases o salida anticipada | Los cursos afectados | No se apaga |
@@ -33,7 +34,9 @@ Los docentes no reciben notificaciones de ClassHall.
 
 ## Para quien publica
 
-Piensa antes de enviar una notificación: si llegan demasiadas, la gente las apaga. Una buena regla es enviar como notificación solo lo que cambia el día de alguien (una suspensión, un cambio de sala, un plazo) y dejar lo demás en el Feed.
+Hay dos formas de avisar: un mensaje corto desde [Organizar → Notificaciones](../organizar/#notificaciones), o una publicación del [Feed](../feed/) enviada como notificación.
+
+Piensa antes de enviar: si llegan demasiadas, la gente las apaga. Una buena regla es enviar como notificación solo lo que cambia el día de alguien (una suspensión, un cambio de sala, un plazo) y dejar lo demás en el Feed.
 
 ## Activar las notificaciones
 
