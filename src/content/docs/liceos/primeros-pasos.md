@@ -34,10 +34,10 @@ Prepara una planilla (Excel o Google Sheets) con **una persona por fila** y esta
 | RUT | `12.345.678-5` | Con o sin puntos y guion. |
 | Nombres | `Camila Andrea` | |
 | Apellidos | `Rojas Muñoz` | |
-| Curso | `Segundo Medio K` | Tal como lo nombra el liceo, igual en todas las filas del curso. |
+| Curso | `Segundo Medio K` | Tal como lo nombra el liceo, igual en todas las filas del curso. Para docentes y administración, escribe `Docente`. |
 | Correo institucional | `crojas@tuliceo.cl` | El correo que cada persona puede abrir. |
 
-- Incluye a **estudiantes, docentes y administración**: todas las personas que van a usar HaNet.
+- Incluye a **estudiantes, docentes y administración**: todas las personas que van a usar HaNet. Docentes y administración llevan `Docente` en la columna Curso.
 - Escribe cada curso **siempre igual**. "Segundo Medio K" y "2°K" serían dos cursos distintos.
 - Cargar la lista otra vez **actualiza** las filas que ya existen (se reconocen por el RUT). Úsalo cuando alguien cambia de curso o llega a mitad de año.
 - Las filas con datos incompletos o un correo no válido no se cargan, y te decimos cuáles son y por qué.
