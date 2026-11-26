@@ -1,6 +1,6 @@
 # HaNet Docs
 
-Documentación de [HaNet](https://github.com/martinuxp/hanetcl) para los liceos que lo usan: primeros pasos, roles y el detalle de cada módulo. Hecha con [Astro Starlight](https://starlight.astro.build).
+Documentación de [HaNet](https://github.com/HaNet-Chile/hanetcl) para los liceos que lo usan: primeros pasos, roles y el detalle de cada módulo. Hecha con [Astro Starlight](https://starlight.astro.build).
 
 ```sh
 npm install

@@ -81,7 +81,7 @@ La Directiva de cada curso arma el **horario** del plan común en el Calendar, c
 
 Comparte con los estudiantes:
 
-1. Dónde usar HaNet (ver [Dónde se usa HaNet](#dónde-se-usa-hanet)): la web en [hanet-app.web.app](https://hanet-app.web.app), o la app para Android que te entrega el equipo de HaNet.
+1. Dónde usar HaNet (ver [Dónde se usa HaNet](#dónde-se-usa-hanet)): la web en [app.hanet.muxp.art](https://app.hanet.muxp.art), o la app para Android que te entrega el equipo de HaNet.
 2. El código de invitación de cuatro palabras.
 3. Que necesitan su **correo institucional** a mano.
 
@@ -93,7 +93,7 @@ Durante la beta:
 
 | Dispositivo | Cómo se usa |
 | --- | --- |
-| **iPhone y iPad** | En el navegador, en [hanet-app.web.app](https://hanet-app.web.app). Agregada a la pantalla de inicio se abre como una app y recibe notificaciones (iOS 16.4 o posterior). |
+| **iPhone y iPad** | En el navegador, en [app.hanet.muxp.art](https://app.hanet.muxp.art). Agregada a la pantalla de inicio se abre como una app y recibe notificaciones (iOS 16.4 o posterior). |
 | **Android** | La app (un archivo APK que entrega el equipo de HaNet) o la web. |
 | **Computador** | La web, y el [panel web](../panel-web/) para el trabajo de escritorio. |
 

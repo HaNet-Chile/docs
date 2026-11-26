@@ -50,7 +50,7 @@ HaNet manda solo correos esenciales: el código de verificación y el vínculo c
 
 ## Código abierto
 
-El código de la app es público en [GitHub](https://github.com/martinuxp/hanetcl). Cualquiera puede revisar cómo trata los datos. Los secretos, las nóminas y los datos de estudiantes nunca van en el repositorio.
+El código de la app es público en [GitHub](https://github.com/HaNet-Chile/hanetcl). Cualquiera puede revisar cómo trata los datos. Los secretos, las nóminas y los datos de estudiantes nunca van en el repositorio.
 
 ## Reportar un problema de seguridad
 
