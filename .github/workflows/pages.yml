@@ -24,10 +24,9 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # Sin SITE ni BASE: el sitio va en la raíz de docs.hanet.muxp.art
+      # (dominio propio en Settings → Pages; el de github.io redirige ahí).
       - run: npm run build
-        env:
-          SITE: https://martinuxp.github.io
-          BASE: /hanetcl-docs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

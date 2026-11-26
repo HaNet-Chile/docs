@@ -20,9 +20,9 @@ export default defineConfig({
       locales: { root: { label: 'Español', lang: 'es' } },
       logo: { src: './src/assets/hanet.svg', alt: 'HaNet' },
       favicon: '/favicon.svg',
-      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/martinuxp/hanetcl' }],
+      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/HaNet-Chile/hanetcl' }],
       customCss: ['@fontsource-variable/dm-sans', './src/styles/hanet.css'],
-      editLink: { baseUrl: 'https://github.com/martinuxp/hanetcl-docs/edit/main/' },
+      editLink: { baseUrl: 'https://github.com/HaNet-Chile/docs/edit/main/' },
       lastUpdated: true,
       sidebar: [
         {
