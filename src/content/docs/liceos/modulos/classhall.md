@@ -56,7 +56,7 @@ Una entrega la ven solo su autor y el docente. No hay nota en la tarea: las nota
 
 ### Compartir a HaNet
 
-Con la app instalada en el teléfono, puedes compartir una T.E. o un documento a HaNet desde cualquier app (Archivos, Drive, correo, WhatsApp). Eliges el Hall y HaNet lo recibe.
+Con la app instalada en el teléfono (durante la beta, en Android), puedes compartir una T.E. o un documento a HaNet desde cualquier app (Archivos, Drive, correo, WhatsApp). Eliges el Hall y HaNet lo recibe.
 
 ### En el computador
 

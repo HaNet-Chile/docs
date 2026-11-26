@@ -22,7 +22,7 @@ Sí. La base (Calendar, Horario, ClassHall, Eventos del liceo y Notificaciones) 
 No. Cada persona usa HaNet en su teléfono o en el navegador. El liceo administra desde la app y el [panel web](../panel-web/).
 
 ### ¿Funciona en cualquier teléfono?
-Sí: iPhone, Android y cualquier navegador. Algunas cosas solo existen en la app instalada, como los avisos de pruebas 24 y 4 horas antes, los widgets y Compartir a HaNet.
+Sí. Durante la beta, en iPhone se usa en el navegador (agregada a la pantalla de inicio) y en Android como app o en el navegador. Algunas cosas solo existen en la app instalada, como los avisos de pruebas y entregas, los widgets y Compartir a HaNet. Con el primer liceo piloto llega a App Store y Google Play. Ver [Dónde se usa HaNet](../primeros-pasos/#dónde-se-usa-hanet).
 
 ### ¿Qué pasa si un estudiante cambia de curso?
 La administración actualiza su curso en la lista y la vuelve a cargar. El estudiante aparece en su curso nuevo.

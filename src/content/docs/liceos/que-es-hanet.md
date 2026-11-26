@@ -5,7 +5,7 @@ description: HaNet es la app de tu liceo para el calendario de cada curso, las c
 
 HaNet es la app de tu liceo. Reúne en un solo lugar lo que hoy vive repartido entre grupos de WhatsApp, diarios murales, correos y planillas: las evaluaciones de cada curso, las clases, las notas, los eventos, las entradas y las actividades del liceo.
 
-Funciona en **iPhone, Android y la web**, y tiene un **panel web** para el trabajo de escritorio: listas largas, cargas masivas y revisiones en lote.
+Funciona en el navegador de cualquier teléfono o computador, y como app en Android. Tiene además un **panel web** para el trabajo de escritorio: listas largas, cargas masivas y revisiones en lote. Ver [Dónde se usa HaNet](../primeros-pasos/#dónde-se-usa-hanet).
 
 ![Pantalla de Inicio de HaNet en un teléfono](../../../assets/capturas/inicio.jpg)
 
