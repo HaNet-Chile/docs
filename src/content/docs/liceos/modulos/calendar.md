@@ -52,8 +52,11 @@ Lo que agenda la Directiva puede no ser oficial. Por eso el docente de la asigna
 
 ## Avisos antes de cada prueba y entrega
 
+Los avisos de pruebas y entregas los programa la app instalada (durante la beta, en Android). El resumen de las 7:00 llega a todos, también en la web.
+
+
 - **24 y 4 horas antes** de cada evaluación, la app instalada avisa. Se apaga en Configuraciones → Notificaciones, solo en ese teléfono.
-- **En iPhone**, dentro de las 24 horas previas aparece una cuenta regresiva en la pantalla bloqueada (Live Activity).
+- **En la app de iPhone**, dentro de las 24 horas previas aparece una cuenta regresiva en la pantalla bloqueada (Live Activity).
 - **Tareas y entregas del Calendar:** la app instalada avisa el día antes a las 19:00 y 3 horas antes (este último solo si cae desde las 9:00). Se apaga en Configuraciones → Notificaciones → "Avisos de entregas", solo en ese teléfono. Las tareas de un Hall no llevan estos avisos, porque ya tienen el recordatorio de las 18:00 para quien no ha entregado.
 - **Resumen de las 7:00**, de lunes a viernes, con las clases, pruebas, tareas y entregas del día. Ver [Horario](../horario/).
 
@@ -63,7 +66,7 @@ El tile del Calendar en el Inicio muestra lo más próximo del curso. Cada perso
 
 ## Widgets
 
-La app instalada trae widgets con la clase de ahora, la siguiente y la próxima prueba:
+La app instalada trae widgets con la clase de ahora, la siguiente y la próxima prueba. Durante la beta están en Android; los de iPhone llegan con la app en App Store.
 
 - **iPhone:** "HaNet hoy" en la pantalla de inicio y "Calendar" en la pantalla bloqueada.
 - **Android:** "HaNet: tu día" en la pantalla de inicio.
