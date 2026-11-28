@@ -33,6 +33,7 @@ export default defineConfig({
             { label: 'Cómo entra cada persona', slug: 'liceos/registro' },
             { label: 'Roles y permisos', slug: 'liceos/roles' },
             { label: 'Panel web', slug: 'liceos/panel-web' },
+            { label: 'Guías por rol (PDF)', slug: 'liceos' },
           ],
         },
         {
